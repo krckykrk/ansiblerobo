@@ -50,8 +50,8 @@
       
   - name: install dependencies
     ansible.builtin.command: npm install
-      args:
-        chdir: /app
+    args:
+      chdir: /app
            
   - name: copy catalogue service
     ansible.builtin.service:
@@ -79,7 +79,10 @@
     ansible.builtin.service:
       name: catalogue
       state: restarted
-      ensbled: yes                 
+      ensbled: yes
+            
+  - name:                        
+
       
 
 
