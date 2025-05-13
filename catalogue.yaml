@@ -79,7 +79,7 @@
     ansible.builtin.service:
       name: catalogue
       state: restarted
-      ensbled: yes
+      enabled: yes
             
   - name:                        
 
