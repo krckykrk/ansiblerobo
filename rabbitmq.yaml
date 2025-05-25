@@ -1,0 +1,5 @@
+- name: install rabbitmq
+  hosts: rabbitmq
+  become: yes
+  tasks:
+  - name: 
